@@ -1,0 +1,65 @@
+# pip install pandas numpy matplotlib streamlit pystan fbprophet cryptocmd plotly
+import streamlit as st
+import pandas as pd
+import yfinance as yf
+import matplotlib.pyplot as plt
+import matplotlib
+import pandas_datareader as data
+import fbprophet
+import requests
+from fbprophet import Prophet
+from datetime import date
+from fbprophet.plot import plot_plotly
+from plotly import graph_objs as go
+from streamlit_option_menu import option_menu
+#from keras.models import load_model
+from PIL import Image
+
+
+img=Image.open('logo.jpeg')
+st.set_page_config(page_title='predict crypto price',page_icon=img)
+hide_menu_style="""
+ <style>
+ #MainMenu {visibility:hidden;}
+ footer{visibility:hidden;}
+ </style>
+ """
+st.markdown(hide_menu_style,unsafe_allow_html=True)
+
+
+selected=option_menu(
+   menu_title=None,
+   options=["Home","Time Series Analysis","Indicator","Plan my purchase"],
+   icons=["house","clock-history","bar-chart-fill","currency-bitcoin"],
+   menu_icon="cast",
+   default_index=0,
+   orientation="horizontal",
+)
+
+start='2011-01-01'
+end='2022-01-01'
+today=date.today().strftime("%Y-%m-%d")
+
+if selected=="Home":
+ st.title("TILL DATE DATA")
+ cryptos=("BTC-USD", "ETH-USD", "USDT-USD", "BNB-USD", "USDC-USD", "SOL-USD", "ADA-USD", "XRP-USD", "LUNA1-USD", "HEX-USD", "AVAX-USD", "DOT-USD", "DOGE-USD", "SHIB-USD", "MATIC-USD", "ATOM-USD", "LTC-USD")
+ targetcrypto=st.selectbox("ENTER THE CRYPTO TO BE PREDICTED",cryptos)
+ def load_data(ticker):
+    data=yf.download(ticker,start,today)
+    data.reset_index(inplace=True)
+    return data
+ data_load_state=st.text("loading data...")
+ data=load_data(targetcrypto)
+ data_load_state.text("data loaded sucessfully....")
+ st.subheader("DATA FROM 2011 TO CURRENT DAY")
+ st.write(data.tail())
+ def org_graph():
+    fig=go.Figure()
+    fig.add_trace(go.Scatter(x=data['Date'],y=data['Open'],name='stock_open'))
+    fig.add_trace(go.Scatter(x=data['Date'],y=data['Close'],name='stock_close'))
+    fig.layout.update(title_text="TILL DATE DATA",xaxis_rangeslider_visible=True)
+    st.plotly_chart(fig)
+ org_graph()
+ st.header("Lets understand the data")
+ st.subheader("Open")
+ st.write("Open indicates the price of crypto currency at the begining of the day")
