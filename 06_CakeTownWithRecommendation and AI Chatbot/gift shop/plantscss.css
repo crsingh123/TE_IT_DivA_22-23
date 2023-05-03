@@ -1,0 +1,569 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+.plant1{
+
+    height:10%;
+    width:100%;
+    border:2px solid black;
+    background-color: white;   
+}
+
+.cart{
+
+    float:right;
+    padding:12px;
+    width:9%;
+    border-left: 2px solid black;
+}
+
+.cart2{
+
+    float:right;
+    margin-left:10px;
+    padding:12px;
+    width:15%;
+    border-left: 2px solid black;
+}
+.navplant {
+    overflow: hidden;
+    background-color:black;
+    position: sticky;
+  
+  }
+  
+  
+  .navplant a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:24px;
+  }
+  
+  
+  .navplant a:hover {
+    background-color:gray;
+    color:yellow;
+  }
+  
+.a1{
+    text-decoration: none;
+    font-size:30px;
+    float:right;
+    margin-right:60px;
+    margin-top:10px;
+    color:black;
+    text-align:center;
+    
+}
+
+.a2{
+    text-decoration: none;
+    font-size:30px;
+    float:right;
+    margin-right:30px;
+    margin-top:10px;
+    color:black;
+
+    
+}
+
+.plant2{
+
+    font-size:50px;
+    height:12%;
+    width:100%;
+    text-align:center;
+    font-style: oblique;
+    background-color: silver;
+    
+}
+
+.plant3{
+
+    width:90%;
+    height:100%;
+    margin-top:80px;
+    margin-left:75px;
+    border:1px solid black;
+    padding:15px;
+    background-color: white;
+    background-image: url("plantsbg.jpg")
+    
+}
+
+.product1{
+    float:left;
+    padding:10px;
+    border:1px solid black;
+    width:18%;
+    height:55%;
+    background-color: black;
+    transition: transform .2s;
+    border:1px solid white;
+    margin-left:25px;    
+}
+
+.product1:hover{
+    transform: scale(1.08);
+    
+}
+
+.product2{
+    float:left;
+    padding:10px;
+    border:1px solid black;
+    width:18%;
+    height:55%;
+    background-color: black;
+    transition: transform .2s;
+    border:1px solid white;
+    margin-left:80px;
+    
+}
+
+.product2:hover{
+    transform: scale(1.08);
+    
+}
+
+.product3{
+    float:left;
+    padding:10px;
+    border:1px solid black;
+    width:18%;
+    height:55%;
+    margin-left:80px;
+    background-color:black;
+    transition: transform .2s;
+    border:1px solid white;
+    
+}
+
+.product3:hover{
+    transform: scale(1.08);
+    
+}
+
+.product4{
+    float:left;
+    padding:10px;
+    border:1px solid black;
+    width:18%;
+    height:55%;
+    margin-left:80px;
+    background-color: black;
+    border:1px solid white;
+    transition: transform .2s;
+    
+}
+
+.product4:hover{
+    transform: scale(1.08);
+    
+}
+
+.product5{
+    float:left;
+    padding:10px;
+    border:1px solid black;
+    width:18%;
+    height:55%;
+    margin-top:60px;
+    background-color: black;
+    border:1px solid white;
+    transition: transform .2s;
+    margin-left:25px; 
+    
+}
+
+.product5:hover{
+    transform: scale(1.08);
+    
+}
+
+.product6{
+    float:left;
+    padding:10px;
+    border:1px solid black;
+    width:18%;
+    height:55%;
+    margin-left:80px;
+    margin-top:60px;
+    background-color: black;
+    border:1px solid white;
+    transition: transform .2s;
+    
+}
+
+.product6:hover{
+    transform: scale(1.08);
+    
+}
+
+.product7{
+    float:left;
+    padding:10px;
+    border:1px solid black;
+    width:18%;
+    height:55%;
+    margin-left:80px;
+    margin-top:60px;
+    background-color: black;
+    border:1px solid white;
+    transition: transform .2s;
+    
+}
+
+.product7:hover{
+    transform: scale(1.08);
+    
+}
+
+.product8{
+    float:left;
+    padding:10px;
+    border:1px solid black;
+    width:18%;
+    height:55%;
+    margin-left:80px;
+    margin-top:60px;
+    background-color: black;
+    border:1px solid white;
+    transition: transform .2s;
+    
+}
+
+.product8:hover{
+    transform: scale(1.08);
+    
+}
+
+
+/* TRIAL CSSSSSSSSSSSSSSS */
+
+@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic);
+
+
+/*! normalize.css v2.1.2 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}script{display:none!important}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:0 0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+
+/*= Demo */
+
+
+
+.footer{
+    background:#000;
+    color:#8a8a8a;
+    font-size:14px;
+    padding:30px 0 30px;
+  }
+  
+  .footer p{
+    color:#8a8a8a;
+  }
+  
+  footer h3{
+    color:#fff;
+    margin-bottom:20px;
+  }
+  
+  .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width:250px;
+    margin-bottom:20px;
+  }
+  .footer-col-1{
+    flex-basis:30%;
+  }
+  .footer-col-2{
+    flex:1;
+    text-align:center;
+  }
+  
+  .footer-col-2 img{
+    width:180px;
+    margin-bottom:20px;
+  }
+  
+  .footer-col-3 , .footer-col-4{
+    flex-basis:12%;
+    text-align:center;
+  }
+  
+  .footer-col-3 ul li:hover{
+  
+    color:white;
+  }
+  
+  .footer-col-4 ul li:hover{
+  
+    color:white;
+  }
+
+  .app-logo{
+    margin-top:20px;
+  }
+  
+  .app-logo img{
+    width:20px;
+  }
+
+
+  .container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.product-name {
+	text-align: center;
+	color: #fc0;
+	margin: 0;
+	font-size: 1.4em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px dotted #666;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.rating .fa{
+    color:#ff523b;
+  }
+
+form.add-to-cart div,
+form.add-to-cart p {
+	text-align: center;
+}
+
+form input.qty {
+	width: 40px;
+	border: 1px solid #eee;
+	font: 1em 'PT Serif', serif;
+	background: #f9f9f9;
+	color: #000;
+	border-radius: 3px;
+	margin-left: 0.4em;
+}
+
+.btn, a.btn {
+	display: inline-block;
+	background: #f3f3f3;
+	color: #fff;
+	font: 1em 'PT Serif', serif;
+	padding: 0.3em 1em;
+	text-align: center;
+	border-radius: 4px;
+    border: 1px solid #a00;
+    color:black;
+    margin-top:30px;
+}
+
+
+#site-info {
+	height: 3em;
+	width: 100%;
+	line-height: 3;
+	text-align: center;
+	background: #cc8500;
+	position: absolute;
+	color: #fff;
+	left: 0;
+	bottom: 0;
+}
+
+body#checkout-page #site-info {
+	position: static;
+}
+
+#shopping-cart {
+	margin: 1.5em 0;
+}
+
+.shopping-cart {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.shopping-cart th {
+	font-size: 1.3em;
+	padding: 0.3em;
+	width: 33.3%;
+	border: 1px solid #ddd;
+	text-transform: uppercase;
+}
+
+.shopping-cart td {
+	padding: 0.3em;
+	width: 33.3%;
+	border: 1px solid #ddd;
+}
+
+.shopping-cart tr:nth-child(even) {
+	background: #fafafa;
+}
+
+.shopping-cart td.pdelete {
+	text-align: center;
+}
+
+.pdelete a,
+.pdelete a:hover {
+	color: #c00;
+	text-decoration: none;
+	font-size: 2.5em;
+	display: block;
+	text-align: center;
+}
+
+#shopping-cart-actions {
+	margin: 1.5em 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#shopping-cart-actions li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+#pricing {
+	padding: 0.5em;
+	margin: 1em 0;
+	background: #fafafa;
+}
+
+#sub-total, #shipping {
+	margin: 1.5em 0;
+	text-align: right;
+}
+
+#sub-total span,
+#shipping span {
+	margin-left: 1em;
+}
+
+#content > h1,
+#checkout-order-form h2 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#pricing #sub-total,
+#pricing #shipping {
+	margin: 1em 0;
+}
+
+#checkout-order-form {
+	margin: 1.5em 0;
+}
+
+#checkout-order-form fieldset {
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	padding: 1em;
+	margin-bottom: 1.3em;
+}
+
+#checkout-order-form legend {
+	padding: 0.3em;
+	background: #fafafa;
+	font-weight: bold;
+}
+
+#checkout-order-form div {
+	margin-bottom: 1em;
+}
+
+#checkout-order-form label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+	text-align: left;
+}
+
+#checkout-order-form input[type="text"] {
+	width: 200px;
+	display: block;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 0.3em;
+}
+
+#checkout-order-form select {
+	width: 200px;
+	display: block;
+}
+
+.message {
+	display: block;
+	margin: 0.5em 0;
+	color: red;
+}
+
+#user-details {
+	margin: 1.5em 0;
+}
+
+#user-details > h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+#user-details-content {
+	margin: 1.5em 0;
+	padding: 1em;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+#user-details-content .detail {
+	float: left;
+	width: 46%;
+}
+
+#user-details-content .detail.right {
+	float: right;
+}
+
+#user-details-content .detail > h2 {
+	text-align: center;
+	font-size: 1.6em;
+	margin-bottom: 0.5em;
+}
+
+#user-details-content ul {
+	margin: 0 0 1em 0;
+	padding: 0;
+	list-style: none;
+}
+
+#user-details-content li {
+	display: block;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.3em;
+	border-bottom: 1px solid #ddd;
+}
+
+#paypal-form {
+	margin: 1.5em 0;
+}
